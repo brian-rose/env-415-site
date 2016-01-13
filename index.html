@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="home">
+
+  <h1 class="page-heading">{{ site.title }}</h1>
+
+{% markdown %}
+## Spring 2016
+
+### Meets Tuesday, Thursday 10:15 - 11:35 AM in ES 328
+
+### Instructor: Brian Rose
+- **Email**: <brose@albany.edu>
+- **Office**: ES 315
+- **Office hours**: Monday 1:30 - 2:30 PM, Wednesday 10:30 - 11:30 AM (or by appointment)
+- **Website**: <http://www.atmos.albany.edu/facstaff/brose>
+
+### Teaching assistant: Cameron Rencurrel
+- **Email**: <crencurrel@albany.edu>
+- **Office**: ES 330
+- **Office hours**: TBD
+
+### Course website:
+<http://www.atmos.albany.edu/facstaff/brose/classes/ENV415_Spring2016/>
+
+Look below to find news and updates about the course. Check back here often.
+The [Schedule page]({{ site.baseurl }}/schedule) will probably be updated as the course evolves.
+
+{% endmarkdown %}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

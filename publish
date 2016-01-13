@@ -1,0 +1,8 @@
+#!/bin/bash
+#  a script to automate building and publishing changes to my website
+echo 'Using jekyll to rebuild the site.'
+jekyll build
+echo ' '
+echo 'Using rsync to update the www folder on ash.'
+rsync -r _site/ br546577@ash.atmos.albany.edu:/nfs/home11/staff/brose/www/classes/ENV415_Spring2016
+echo 'Publishing complete.'
