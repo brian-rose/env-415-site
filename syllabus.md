@@ -53,7 +53,7 @@ All students will need to follow the regular reading assignments. One copy of th
 - [The authors' blog](http://www.climatemodellingprimer.net)
 
 ### Reading and quizzes
-Reading assignments from the *Primer* are clearly given on the [schedule page](http://www.atmos.albany.edu/facstaff/brose/classes/ENV415_Fall2016/schedule.html) on the course website. The reading is required, and it is important for every student to keep up with the schedule.
+Reading assignments from the *Primer* are clearly given on the [schedule page](http://www.atmos.albany.edu/facstaff/brose/classes/ENV415_Fall2016/schedule.html) on the course website. The reading is required, and must be completed **before** class on the day indicated. It is important for every student to keep up with this schedule.
 
 To encourage this, a pop quiz based on the assigned reading will *occasionally* be given in class. Dates will not be announced in advance. Quizzes will be given in the first 5 minutes of class.  
 
